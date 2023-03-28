@@ -3,6 +3,7 @@
 Defines a square by: (based on 0-square.py)
 """
 
+
 class Square:
     """
     Define a Square class
@@ -42,6 +43,7 @@ class Square:
         Gets the value
         """
         return (self.__position)
+
     @position.setter
     def position(self, value):
         """

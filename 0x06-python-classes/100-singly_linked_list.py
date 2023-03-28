@@ -36,7 +36,8 @@ class Node:
             raise TypeError("next_node must be a Node object")
         self.__next_node = value
 
-    class SinglyLinkedList:
+
+class SinglyLinkedList:
     """Represent a singly-linked list."""
 
     def __init__(self):
@@ -50,7 +51,7 @@ class Node:
         Args:
             value (Node): The new Node to insert.
         """
-         new = Node(value)
+        new = Node(value)
         if self.__head is None:
             new.next_node = None
             self.__head = new

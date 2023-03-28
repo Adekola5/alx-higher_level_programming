@@ -3,6 +3,7 @@
 Defines a square by: (based on 0-square.py)
 """
 
+
 class Square:
     """
     Define a Square class
@@ -17,7 +18,7 @@ class Square:
         """
         self.size = size
 
-        @property
+    @property
     def size(self):
         """
         Gets the value
