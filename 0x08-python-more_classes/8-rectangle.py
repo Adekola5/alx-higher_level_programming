@@ -20,7 +20,7 @@ class Rectangle:
             height: rectangle height
 
 
-            """
+        """
 
         self.width = width
         self.height = height
@@ -34,7 +34,7 @@ class Rectangle:
             rectangle width
 
 
-            """
+        """
 
         return self.__width
 
@@ -50,7 +50,7 @@ class Rectangle:
             ValueError: if width is less than zero
 
 
-            """
+        """
 
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
@@ -66,7 +66,7 @@ class Rectangle:
             rectangle height
 
 
-            """
+        """
 
         return self.__height
 
@@ -82,7 +82,7 @@ class Rectangle:
             ValueError: if height is less than zero
 
 
-            """
+        """
 
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
@@ -97,7 +97,7 @@ class Rectangle:
             rectangle area
 
 
-            """
+        """
 
         return self.width * self.height
 
@@ -108,7 +108,7 @@ class Rectangle:
             rectangle perimeter
 
 
-            """
+        """
 
         if self.width == 0 or self.height == 0:
             return 0
@@ -122,7 +122,7 @@ class Rectangle:
             str of the rectangle
 
 
-            """
+        """
 
         rectangle = ""
 
@@ -167,7 +167,7 @@ class Rectangle:
             The bigger Rectangle
 
 
-            """
+        """
 
         if not isinstance(rect_1, Rectangle):
             raise TypeError("rect_1 must be an instance of Rectangle")
